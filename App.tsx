@@ -1,4 +1,3 @@
-import React from 'react';
 import Hero from './components/Hero';
 import Audience from './components/Audience';
 import Services from './components/Services';

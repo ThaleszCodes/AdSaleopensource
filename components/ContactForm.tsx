@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, CheckCircle } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
 import Button from './Button';
 
 const ContactForm: React.FC = () => {
@@ -17,8 +17,8 @@ const ContactForm: React.FC = () => {
     setTimeout(() => setIsSubmitted(true), 1000);
     
     // Optional: Redirect to WhatsApp with pre-filled message
-    const message = `Olá, me chamo ${formData.name}. Tenho um negócio do tipo ${formData.businessType} e pretendo investir ${formData.budget} em tráfego. Gostaria de uma consultoria.`;
-    const encodedMessage = encodeURIComponent(message);
+    // const message = `Olá, me chamo ${formData.name}. Tenho um negócio do tipo ${formData.businessType} e pretendo investir ${formData.budget} em tráfego. Gostaria de uma consultoria.`;
+    // const encodedMessage = encodeURIComponent(message);
     // window.open(`https://wa.me/5511999999999?text=${encodedMessage}`, '_blank');
   };
 
